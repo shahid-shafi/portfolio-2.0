@@ -7,17 +7,17 @@ const ContactForm = () => {
     const { name, value } = event.target;
   };
   return (
-    <form className="contact-form">
-      <div className="name-email-fields">
+    <form className="contact-form page-section">
+      <div className="flex-wrap">
         <input
-          className="input-field"
+          className="input-field flex-basis"
           type="text"
           name="name"
           onChange={handleOnChange}
           placeholder="Name"
         />
         <input
-          className="input-field"
+          className="input-field flex-basis"
           type="email"
           name="email"
           onChange={handleOnChange}

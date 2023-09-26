@@ -6,7 +6,7 @@ const MapSection = () => {
   const center = [33.975608, 74.901473] as LatLngExpression;
 
   return (
-    <div className="map-wrap">
+    <div className="flex-basis">
       <MapContainer center={center} zoom={13}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
